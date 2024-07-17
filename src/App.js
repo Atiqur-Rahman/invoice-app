@@ -19,6 +19,7 @@ const App = () => {
           <InvoiceProvider>
             <Navbar />
             <Routes>
+              <Route path="/" element={<ProductList></ProductList>} />
               <Route path="/login" element={<Login></Login>} />
               <Route path="/register" element={<Register></Register>} />
               <Route path="/products" element={<ProductList></ProductList>} />
